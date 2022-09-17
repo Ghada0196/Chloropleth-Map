@@ -1,0 +1,39 @@
+
+svg{
+    display: block;
+    margin: auto;
+}  
+h1, p{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.counties {
+    stroke: aliceblue;
+}
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
+
+.county:hover{
+    fill: red;
+}
+
+#tooltip{
+    position: absolute;
+    display: inline;
+    padding: 5px;
+    background-color: yellow;
+    width: auto;
+    height: auto;
+    opacity: 0;   
+}
